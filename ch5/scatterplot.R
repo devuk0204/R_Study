@@ -24,7 +24,7 @@ plot(price, type = 'o', pch = 20, col = 'orange', cex = 1.5)
 par(mfrow = c(1, 1))
 plot(price, type = 'o', pch = 20,
      col = 'green', cex = 2.0, lwd = 3)
-
+  
 
 #www usage
 data('WWWusage')
