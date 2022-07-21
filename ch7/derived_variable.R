@@ -36,3 +36,5 @@ user_pay_data[c(1:10), c(1, 7:15)]
 user_pay_data$total <- user_pay_data$`grocery(1)` + user_pay_data$`grocery(2)` + user_pay_data$`clothing(3)` + user_pay_data$`stuff(4)` + user_pay_data$`etc(5)`
 
 user_pay_data[c(1:10), c(1, 7:11, 16)]
+print(user_pay_data)
+write.csv(user_pay_data, 'ch7/cleanData.csv', quote = F, row.names = F)
